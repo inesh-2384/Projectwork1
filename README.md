@@ -43,12 +43,12 @@ The project builds on the runtime-verification ideas of AgentGuard (runtime insp
 
 <img width="2380" height="1430" alt="14_architecture_diagram" src="https://github.com/user-attachments/assets/18854228-a417-412c-8cb9-05cd91d66a28" />
 
+Agents propose; the authorization service controls execution. Execution results update the simulator and the history, and all decisions are written to the audit log.
+Planned repository layout: `agents/`, `simulator/`, `assurance/` (evidence, uncertainty, risk, policies, monitor, authorization), `execution/`, `oversight/`, `audit/`, `evaluation/`, `api/`, `tests/`.
+
 ##  Flow Diagram
 <img width="2380" height="1430" alt="15_flow_diagram" src="https://github.com/user-attachments/assets/9789d3a1-f363-4ec2-ac74-0d4a8f8b8c73" />
 
-Agents propose; the authorization service controls execution. Execution results update the simulator and the history, and all decisions are written to the audit log.
-
-Planned repository layout: `agents/`, `simulator/`, `assurance/` (evidence, uncertainty, risk, policies, monitor, authorization), `execution/`, `oversight/`, `audit/`, `evaluation/`, `api/`, `tests/`.
 
 ## Output
 
