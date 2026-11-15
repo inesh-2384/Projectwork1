@@ -1,4 +1,4 @@
-### RAVEN: Risk-Conditioned Autonomy and Runtime Verification for Heterogeneous Multi-Agent Systems Under Uncertainty
+# RAVEN: Risk-Conditioned Autonomy and Runtime Verification for Heterogeneous Multi-Agent Systems Under Uncertainty
 
 An independent runtime supervision layer that sits between a team of AI agents and their tools, authorizing each proposed action using evidence, uncertainty, risk, safety policies, execution history and human approval, evaluated in a simulated smart-campus emergency environment.
 
